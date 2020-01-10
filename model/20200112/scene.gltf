@@ -1,0 +1,272 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 8646,
+      "max": [
+        0.75809699296951294,
+        0.43571001291275024,
+        0.45586401224136353
+      ],
+      "min": [
+        -0.75809800624847412,
+        -0.43571001291275024,
+        -0.45586299896240234
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 103752,
+      "componentType": 5126,
+      "count": 8646,
+      "max": [
+        0.99920910596847534,
+        0.99987298250198364,
+        0.99993652105331421
+      ],
+      "min": [
+        -0.99926650524139404,
+        -0.99978935718536377,
+        -0.99998658895492554
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 8646,
+      "max": [
+        0.99996006488800049,
+        0.99956423044204712,
+        0.9970707893371582,
+        1
+      ],
+      "min": [
+        -0.99988263845443726,
+        -0.99995338916778564,
+        -0.9993278980255127,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 8646,
+      "max": [
+        0.99951201677322388,
+        0.99951201677322388
+      ],
+      "min": [
+        0.00048799999058246613,
+        0.00048799999058246613
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 44895,
+      "max": [
+        8645
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Spogna (https://sketchfab.com/spogna)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/seashell-with-limestone-495f121728324725b540cb6ec2c08792",
+      "title": "Seashell with Limestone"
+    },
+    "generator": "Sketchfab-7.29.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 179580,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 69168,
+      "byteOffset": 179580,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 207504,
+      "byteOffset": 248748,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 138336,
+      "byteOffset": 456252,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 594588,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/conchiglia_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/conchiglia_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/conchiglia_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "conchiglia",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        -1,
+        2.2204460492503131e-16,
+        -6.1232342629258393e-17,
+        0,
+        2.2204460492503131e-16,
+        1,
+        -7.8287729540072034e-16,
+        0,
+        6.1232342629258393e-17,
+        -7.8287729540072034e-16,
+        -1,
+        0,
+        -1.3709068298339844e-06,
+        -1.0587911840678754e-22,
+        -5.9604644775390625e-07,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "conchiglia.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
